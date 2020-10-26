@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:museum_app/ui/pages/splash_screen.dart';
 
 import 'ui/pages/home_page.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }

@@ -78,6 +78,15 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
 
+            SizedBox(height: 30),
+
+            RaisedButton(
+              child: Text('Back'),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+            )
+
             /// News and Exhibition section
           ],
         ),
